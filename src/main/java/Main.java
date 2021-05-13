@@ -32,7 +32,7 @@ public class Main {
         priorityQueue.enqueue(8);
         priorityQueue.enqueue(13);
         priorityQueue.enqueue(9);
-        priorityQueue.enqueue(7);
+        //priorityQueue.enqueue(7);
         while (!priorityQueue.isEmpty()) {
             System.out.println(priorityQueue.dequeue());
         }
